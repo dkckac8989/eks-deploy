@@ -11,7 +11,7 @@ resource "kubernetes_ingress_v1" "voting-ingress" {
 
   spec {
     rule {
-      host = "voting.capitalapps.me"
+      host = "voting.nwokolo.live"
       http {
         path {
           backend {
@@ -42,7 +42,7 @@ resource "kubernetes_ingress_v1" "micro-ingress" {
 
   spec {
     rule {
-      host = "sock-shop.capitalapps.me"
+      host = "sock-shop.nwokolo.live"
       http {
         path {
           backend {
